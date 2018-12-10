@@ -1,0 +1,29 @@
+{
+	"ro": {
+		"about": "Despre Noi",
+		"services": "Servicii",
+		"portfolio": "Portfoliu",
+		"projects": "Proiecte",
+		"team": "Echipa",
+		"contact": "Contact",
+		"title": "Asociatia Cserevar"
+	},
+	"hu": {
+		"about": "Rolunk",
+		"services": "Szolgaltatas",
+		"portfolio": "Portfolio",
+		"projects": "Projektek",
+		"team": "Csapat",
+		"contact": "Elerhetoseg",
+		"title": "Cserevar Egyesulet"
+	},
+	"en": {
+		"about": "About",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"projects": "Projects",
+		"team": "Team",
+		"contact": "Contact",
+		"title": "Cserevar Association"
+	}
+}

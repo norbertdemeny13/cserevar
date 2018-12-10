@@ -1,5 +1,29 @@
 (function($) {
   "use strict"; // Start of use strict
+  var languageData = [];
+  function loadJSON(file, callback) {   
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+  }
+
+  function load() {
+    var actualJson = [];
+    loadJSON("./js/language.json", function(response) {
+      actualJson = JSON.parse(response);
+      console.log('actualJson', actualJson);     
+      languageData = actualJson;
+    });  
+  }
+
+  load();
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -42,9 +66,18 @@
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {
     $('.navbar').addClass('d-none');
-  })
+  });
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $('.navbar').removeClass('d-none');
-  })
+  });
+
+  $('.menu-item').on('click', function(e){
+    $('.menu-item .active').toggleClass('active');
+    $(e.target).toggleClass('active');
+    var lang = $(this).attr('id');
+    $('.lang').each(function(index, element) {
+      $(this).text(languageData[lang][$(this).attr('key')]);
+    });
+  });
 
 })(jQuery); // End of use strict

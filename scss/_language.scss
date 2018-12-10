@@ -1,0 +1,13 @@
+.menu-item {
+  align-self: center;
+  color: #a99a37;
+  cursor: pointer;
+  display: flex;
+  list-style: none;
+  margin: 0 5px;
+  font-size: 12px;
+
+  .active {
+    color: #fed136 !important;
+  }
+}
