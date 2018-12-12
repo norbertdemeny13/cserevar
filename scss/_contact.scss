@@ -4,7 +4,9 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
-  .section-heading {
+  .section-heading,
+  .section-subheading,
+  p {
     color: $white;
   }
   .form-group {

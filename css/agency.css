@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 130px 0;
   }
 }
 
@@ -601,7 +601,9 @@ section#contact {
   background-position: center;
 }
 
-section#contact .section-heading {
+section#contact .section-heading,
+section#contact .section-subheading,
+section#contact p {
   color: #fff;
 }
 

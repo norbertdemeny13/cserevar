@@ -6,7 +6,10 @@
 		"projects": "Proiecte",
 		"team": "Echipa",
 		"contact": "Contact",
-		"title": "Asociatia Cserevar"
+		"title": "Asociatia Cserevar",
+		"intro_heading":"Asociatia Cserevar",
+		"intro_lead_in": "Bine v-am gasit!",
+		"tell_me_more": "Afla mai multe "
 	},
 	"hu": {
 		"about": "Rolunk",
@@ -15,7 +18,10 @@
 		"projects": "Projektek",
 		"team": "Csapat",
 		"contact": "Elerhetoseg",
-		"title": "Cserevar Egyesulet"
+		"title": "Cserevar Egyesulet",
+		"intro_heading":"Cserevar Egyesulet",
+		"intro_lead_in": "Koszontom oldalunkon!",
+		"tell_me_more": "Tudj meg tobbet"
 	},
 	"en": {
 		"about": "About",
@@ -24,6 +30,9 @@
 		"projects": "Projects",
 		"team": "Team",
 		"contact": "Contact",
-		"title": "Cserevar Association"
+		"title": "Cserevar Association",
+		"intro_heading":"Cserevar Association",
+		"intro_lead_in": "Welcome to our page! ",
+		"tell_me_more": "Tell me more"
 	}
 }
