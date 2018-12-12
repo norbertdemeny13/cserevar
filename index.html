@@ -86,7 +86,23 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <p>About me here</p>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Despre Noi</h2>
+            <h3 class="section-subheading text-muted">Noi suntem Toth Stefan si Toth Iboly</h3>
+          </div>
+        </div>
+        <div class="row row-1">
+          <div class="col-lg-6 col-md-6 text-center">
+            <img src="./img/about/us.jpg" width="400">
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <p>Pepinierea Toth este o afacere de familie localizata in localitatea Ciumbrud, jud Alba, care a inceput acum 15 ani cu o mare pasiune pentru trandafiri. Frumusetea si mirosul atractiv al trandafirilor a pornit ideea si proiectul de suflet al unei familii ciumbrudene intreprinzatoare.</p>
+            <p>Cu trecerea anilor si acumularea experientei necesare Pepinierea Toth a reusit sa aduca portofoliului de produse atat pomi fructiferi, vita de vie , cat si arbusti fructiferi si ornamentali.</p>
+            <p>Astfel obiectul principal de activitate este producerea si comercializarea de trandafiri, pomi fructiferi, arbusti fructiferi, arbusti ornamentali, vita de vie, lavanda.</p>
+            <p>Printre produsele noastre gasiti o multitudine de specii de pomi fructiferi: caisi, visini, pruni, meri, peri, migdali,  piersici, diferite specii de arbori fructiferi, o diversitate de pomi ornamentali si diferite specii de trandafiri.</p>
+            <p>Petnru clientii nostri oferim consiliere si asistenta pentru infiintarea, ingrijirea si intretinerea livezilor.</p>
+            <p>Toate produsele noastre sunt autorizate si detin certificate de calitate.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -431,46 +447,55 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <div class="col-lg-12 text-center subheading-content">
+            <h2 class="section-heading text-uppercase">Date de contact</h2>
+            <h3 class="section-subheading text-center col-lg-8">Pentru informatii suplimentare sau comanda online ne puteti contacta folosind formularul de contact, unul din telefoanele noastre sau email-ul nostru.</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
+        <div class="row adress">
+          <div class="col-lg-6">
+            <p>Producator: Toth</p>
+            <p>Adresa: Ciumbriud, Str. Progresului, nr. 83, Jud. Alba</p>
+            <p>e-mail: pepiniera.toth@gmail.com</p>
+            <p>Telefon: Stefan: 0746267464, Iboly: 0743727942</p>
+            <div class="row">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2756.0117579885996!2d23.76601931558601!3d46.30960397912014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDE4JzM0LjYiTiAyM8KwNDYnMDUuNiJF!5e0!3m2!1sro!2sro!4v1541755964994" width="500" height="450" frameborder="0" style="border:0; margin-left: 10px" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row">
-                <div class="col-md-6">
+                <h3 class="section-heading col-md-12 text-uppercase">Formular de contact online</h3>
+                <div class="col-md-12">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                    <input class="form-control" id="name" type="text" placeholder="Nume *" required="required" data-validation-required-message="Va rugam sa va introduceti numele.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Va rugam sa va introduceti emailul.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" id="phone" type="tel" placeholder="Telefon *" required="required" data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
-                </div>
-                <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Mesajul dumneavostra *" required="required" data-validation-required-message="Va rugam sa introduceti un mesaj."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center send-message">
                   <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
-              </div>
+                </div>
             </form>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
