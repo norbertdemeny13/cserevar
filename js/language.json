@@ -1,38 +1,61 @@
 {
-	"ro": {
-		"about": "Despre Noi",
-		"services": "Servicii",
-		"portfolio": "Portfoliu",
-		"projects": "Proiecte",
-		"team": "Echipa",
-		"contact": "Contact",
-		"title": "Asociatia Cserevar",
-		"intro_heading":"Asociatia Cserevar",
-		"intro_lead_in": "Bine v-am gasit!",
-		"tell_me_more": "Afla mai multe "
-	},
 	"hu": {
+		"title": "Cserevar Egyesulet",
 		"about": "Rolunk",
 		"services": "Szolgaltatas",
 		"portfolio": "Portfolio",
 		"projects": "Projektek",
 		"team": "Csapat",
 		"contact": "Elerhetoseg",
-		"title": "Cserevar Egyesulet",
 		"intro_heading":"Cserevar Egyesulet",
 		"intro_lead_in": "Koszontjuk oldalunkon!",
-		"tell_me_more": "Tudj meg tobbet"
+		"tell_me_more": "Tudj meg tobbet",
+		"team_heading": "A mi csodas csapatunk",
+		"about_heading":"Rolunk",
+		"about_subheading":"Egyutt a gyerekek boldogsagaert",
+		"about_text1":" text 1 here",
+		"about_text2":"text 2 here",
+		"about_text3":"text 3 here",
+		"about_text4":"text 4 here"
+
+
+	},
+	"ro": {
+		"title": "Asociatia Cserevar",
+		"about": "Despre Noi",
+		"services": "Servicii",
+		"portfolio": "Portfoliu",
+		"projects": "Proiecte",
+		"team": "Echipa",
+		"contact": "Contact",
+		"intro_heading":"Asociatia Cserevar",
+		"intro_lead_in": "Bine v-am gasit!",
+		"tell_me_more": "Afla mai multe ",
+		"team_heading": "Despre echipa noastra",
+		"about_heading":"Despre noi",
+		"about_subheading":"Impreuna pentru fericirea copiilor",
+		"about_text1":" text 1 here",
+		"about_text2":"text 2 here",
+		"about_text3":"text 3 here",
+		"about_text4":"text 4 here"
 	},
 	"en": {
+		"title": "Cserevar Association",
 		"about": "About",
 		"services": "Services",
 		"portfolio": "Portfolio",
 		"projects": "Projects",
 		"team": "Team",
 		"contact": "Contact",
-		"title": "Cserevar Association",
 		"intro_heading":"Cserevar Association",
 		"intro_lead_in": "Welcome to our page! ",
-		"tell_me_more": "Tell me more"
+		"tell_me_more": "Tell me more",
+		"team_heading": "Our amazing team",
+		"about_heading":"About us",
+		"about_subheading": "Together for children's happiness",
+		"about_text1":" text 1 here",
+		"about_text2":"text 2 here",
+		"about_text3":"text 3 here",
+		"about_text4":"text 4 here"
 	}
 }
