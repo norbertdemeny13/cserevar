@@ -2,11 +2,12 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg14.jpg');
+  background-image: url('../img/header-bg18.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  min-height: 750px;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -16,6 +17,7 @@ header.masthead {
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     .intro-heading {
       font-size: 50px;
@@ -23,14 +25,16 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       @include heading-font;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
   }
 }
 @media(min-width:768px) {
   header.masthead {
+    min-height: 750px;
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 220px;
+      padding-bottom: 120px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -43,6 +47,7 @@ header.masthead {
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
+        padding-bottom: 140px;
         @include heading-font;
       }
     }

@@ -6,8 +6,12 @@ section#contact {
   background-position: center;
   .section-heading,
   .section-subheading,
-  p {
+  p,h3 {
     color: $white;
+  }
+
+  .section-subheading {
+    text-align: center;
   }
   .form-group {
     margin-bottom: 25px;
