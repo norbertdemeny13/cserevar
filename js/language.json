@@ -16,9 +16,18 @@
 		"about_text1":" text 1 here",
 		"about_text2":"text 2 here",
 		"about_text3":"text 3 here",
-		"about_text4":"text 4 here"
-
-
+		"about_text4":"text 4 here",
+		"team_subheading":"A var alappillerei:",
+		"member_profession1":"-polgarmester-",
+		"member_profession2":"-tanitoneni-",
+		"team_summary":"text here",
+		"contact_heading":"Elerhetoseg",
+		"contact_text":"itt irj text here",
+		"contact_name":"Cserevar Egyesulet",
+		"contact_adresss":"Cim: Kocsard, szam. 319,Fehermegye, irányítószám: 547037",
+		"contact_code":"Adó Kód: 32739622",
+		"contact_phone":"Telefonszám: 0799828497",
+		"contact_formular":"Itt írhatsz nekünk!"
 	},
 	"ro": {
 		"title": "Asociatia Cserevar",
@@ -37,7 +46,19 @@
 		"about_text1":" text 1 here",
 		"about_text2":"text 2 here",
 		"about_text3":"text 3 here",
-		"about_text4":"text 4 here"
+		"about_text4":"text 4 here",
+		"team_subheading":"Oamenii de baza a echipei:",
+		"member_profession1":"-primar-",
+		"member_profession2":"-invatatoare-",
+		"member_profession3":"text here",
+		"team_summary":"text here",
+		"contact_heading":"Date de contact",
+		"contact_text":"itt irj text here",
+		"contact_name":"Asociatia Cserevar",
+		"contact_adresss":"Adresa: Lunca Muresului, nr. 319, Jud. Alba, Cod postal:547037",
+		"contact_code":"Cod fiscal: 32739622",
+		"contact_phone":"Telefon: 0799828497",
+		"contact_formular":"Introduceti mesajul aici"
 	},
 	"en": {
 		"title": "Cserevar Association",
@@ -56,6 +77,18 @@
 		"about_text1":" text 1 here",
 		"about_text2":"text 2 here",
 		"about_text3":"text 3 here",
-		"about_text4":"text 4 here"
+		"about_text4":"text 4 here",
+		"team_subheading":"The basic pillar of Cserevar:",
+		"member_profession1":"-mayor-",
+		"member_profession2":"-teacher-",
+		"member_profession3":"text here",
+		"team_summary":"text here",
+		"contact_heading":"Contact us",
+		"contact_text":"itt irj text here",
+		"contact_name":"Cserevar Association",
+		"contact_adresss":"Adress: Lunca Muresului, nr. 319, County. Alba, ZIP code: 547037",
+		"contact_code":"Fiscal code: 32739622",
+		"contact_phone":"Phone number: 0799828497",
+		"contact_formular":"Leave your text here:"
 	}
 }
