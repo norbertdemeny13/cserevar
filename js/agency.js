@@ -17,8 +17,7 @@
   function load() {
     var actualJson = [];
     loadJSON("./js/language.json", function(response) {
-      actualJson = JSON.parse(response);
-      console.log('actualJson', actualJson);     
+      actualJson = JSON.parse(response);     
       languageData = actualJson;
     });  
   }
@@ -77,6 +76,9 @@
     var lang = $(this).attr('id');
     $('.lang').each(function(index, element) {
       $(this).text(languageData[lang][$(this).attr('key')]);
+    });
+    $('.placeholder').each(function(index, element) {
+      $(this).attr("placeholder", languageData[lang][$(this).attr('key')]);
     });
   });
 
