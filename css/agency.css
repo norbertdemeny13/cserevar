@@ -46,6 +46,10 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 
+section.sponsors img {
+  height: 85px;
+}
+
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
