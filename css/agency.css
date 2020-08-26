@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Cserevar v0.0.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/cserevar-egyesulet/blob/master/LICENSE)
  */
 
