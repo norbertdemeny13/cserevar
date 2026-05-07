@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var dartSass = require('sass');
+var sass = require('gulp-sass')(dartSass);
 var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
@@ -52,11 +53,11 @@ gulp.task('vendor', function() {
 // Compile SCSS
 gulp.task('css:compile', function() {
   return gulp.src('./scss/**/*.scss')
-    .pipe(sass.sync({
+    .pipe(sass({
       outputStyle: 'expanded'
     }).on('error', sass.logError))
     .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
+      overrideBrowserslist: ['last 2 versions'],
       cascade: false
     }))
     .pipe(header(banner, {

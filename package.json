@@ -25,6 +25,14 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
     },
+    "scripts": {
+        "build": "bash scripts/build-cpanel.sh",
+        "build:gulp": "gulp",
+        "dev": "gulp dev",
+        "start": "python3 -m http.server",
+        "bundle": "npm run build",
+        "test": "npm run build"
+    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "^4.4.1",
@@ -38,7 +46,8 @@
         "gulp-clean-css": "3.10.0",
         "gulp-header": "2.0.5",
         "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.1",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.77.0",
         "gulp-uglify": "3.0.1"
     }
 }

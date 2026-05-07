@@ -1,124 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Cserevár Egyesület – Székelykocsárd közösségi és gyermekprogramjai">
+  <meta name="keywords" content="cserevar, egyesület, székelykocsárd, ong, gyerekek, támogatás, közösség">
+  <title>Cserevár Egyesület</title>
+  <link rel="icon" type="image/png" href="icon.png">
 
-  <head>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/agency.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="page-top">
+  <a class="sr-only sr-only-focusable btn btn-primary py-2" href="#about">Ugrás a tartalomhoz</a>
 
-    <meta name="description" content="Asociatia Cserevar Egyesulet">
-    <meta name="author" content="">
-    <meta name="keywords" content="cserevar, asociatia, egyesulet, sponzorizare, ong, voluntariat, copii, ajutor, gyerekek, segitseg, gyermek, tamogatas">
-    <title>Asociatia Cserevar Egyesulet</title>
-    <link rel="shortcut icon" type="image/png" href="./icon.png">
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger lang" href="#page-top" key="title">Cserevár Egyesület</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menü
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link lang js-scroll-trigger" href="#about" key="about">Rólunk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lang js-scroll-trigger" href="#activity" key="activity">Tevékenységek</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lang js-scroll-trigger" href="#gallery" key="gallery">Képek</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lang js-scroll-trigger" href="#team" key="team">Csapat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lang js-scroll-trigger" href="#contact" key="contact">Elérhetőség</a>
-            </li>
-            <div style="display: none">
-              <li class="nav-item menu-item menu-item-language" id="hu">
-                <a class="active">HU</a>
-              </li>
-              <li class="nav-item menu-item menu-item-language" id="ro">
-                <a class="">RO</a>
-              </li>
-              <li class="nav-item menu-item menu-item-language" id="en">
-                <a class="">EN</a>
-              </li>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" role="navigation" aria-label="Főmenü">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger lang" href="#page-top" data-i18n="title" key="title">Cserevár Egyesület</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" data-i18n-aria="nav_menu_toggle_aria" aria-label="Menü megnyitása">
+        <span class="d-inline-flex align-items-center"><span class="lang" data-i18n="nav_menu_toggle" key="nav_menu_toggle">Menü</span><i class="fas fa-bars ml-2" aria-hidden="true"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="mainNav__toolbar d-flex flex-column flex-lg-row flex-lg-nowrap align-items-lg-center ml-lg-auto w-100">
+          <ul class="navbar-nav text-uppercase flex-lg-row align-items-lg-center mb-0">
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#about" data-i18n="about" key="about">Rólunk</a></li>
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#activity" data-i18n="activity" key="activity">Tevékenységek</a></li>
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#gallery" data-i18n="gallery" key="gallery">Képek</a></li>
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#team" data-i18n="team" key="team">Csapat</a></li>
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#progress" data-i18n="progress" key="progress">Hol tartunk</a></li>
+            <li class="nav-item"><a class="nav-link lang js-scroll-trigger" href="#contact" data-i18n="contact" key="contact">Elérhetőség</a></li>
           </ul>
+          <div class="lang-switcher-wrap d-flex justify-content-center justify-content-lg-end align-items-center mt-3 mt-lg-0 pl-lg-3 flex-shrink-0" role="group" aria-label="Nyelvválasztó">
+            <div class="btn-group lang-switcher" role="group">
+              <button type="button" class="btn js-lang-select active" data-lang="hu" aria-pressed="true">HU</button>
+              <button type="button" class="btn js-lang-select" data-lang="ro" aria-pressed="false">RO</button>
+              <button type="button" class="btn js-lang-select" data-lang="en" aria-pressed="false">EN</button>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="lang intro-lead-in" key="intro_lead_in">Isten hozott!</div>
-          <div class="lang intro-heading text-uppercase" key="intro_heading">Cserevár Egyesület</div>
-          <a class="lang btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about" key="tell_me_more">Tudj meg többet</a>
-        </div>
+  <header class="masthead" role="banner">
+    <div class="container">
+      <div class="intro-text">
+        <p class="lang intro-lead-in mb-0" key="intro_lead_in">Isten hozott!</p>
+        <h1 class="lang intro-heading text-uppercase" key="intro_heading">Cserevár Egyesület</h1>
+        <a class="lang btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about" key="tell_me_more">Tudj meg többet</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- About -->
-    <section id="about">
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="lang section-heading text-uppercase" key="about_heading">A SZÉKELYKOCSÁRDI CSEREVÁR EGYESÜLET</h2>
+          <div class="col-12 text-center">
+            <h2 id="about-heading" class="lang section-heading text-uppercase" key="about_heading">A SZÉKELYKOCSÁRDI CSEREVÁR EGYESÜLET</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 text-center col-md-12">
-            <h4 class="lang" key="about_subheading">Kedves Látogató!</h4>
-            <p class="lang about_text1" key="about_text1">Szeretettel köszöntünk a székelykocsárdiak és szimpatizánsaik körében, s ha már beléptél oldalunkra, meghívunk egy kis virtuális sétára is, hogy ismerd meg közösségünket, céljainkat, tevékenységeinket. </p>
-            <p class="lang about_text2" key="about_text2">Egyesületünk legfőbb célja segíteni településünk és a szomszéd települések fejlődésében, gyerekeink nevelését, fejlődését jó irányba terelni ,  a felnőtteknek segíteni , hogy megtalálják a maguk számítását, munkáját , munkájuk eredményét és megmaradjanak itt, ahova a Jóisten elhelyezett bennünket.</p>
+          <div class="col-12 text-center">
+            <h3 class="lang h4 font-weight-bold" key="about_subheading">Kedves Látogató!</h3>
+            <p class="lang about_text1" key="about_text1">Szeretettel köszöntünk a székelykocsárdiak és szimpatizánsaik körében, s ha már beléptél oldalunkra, meghívunk egy kis virtuális sétára is, hogy ismerd meg közösségünket, céljainkat, tevékenységeinket.</p>
+            <p class="lang about_text2" key="about_text2">Egyesületünk legfőbb célja segíteni településünk és a szomszéd települések fejlődésében, gyerekeink nevelését, fejlődését jó irányba terelni, a felnőtteknek segíteni, hogy megtalálják a maguk számítását, munkáját, munkájuk eredményét és megmaradjanak itt, ahova a Jóisten elhelyezett bennünket.</p>
             <p class="lang about_text3" key="about_text3">Székelykocsárdon a CSEREVÁR Egyesületbe tömörültünk azokkal, akik úgy éreztük, hogy nem csak panaszkodni kell, hanem össze kell fogunk és megálmodva, megtervezve közösségünk jövőjét, áldozatot vállalva, időt, pénzt és energiát nem sajnálva, cselekedni kell azért, hogy SZÉKELYKOCSÁRD ne csak a múltban és a jelenben, hanem a jövőben is bölcsőhelye lehessen egészséges, lelkileg erős, a közösségért dolgozó és közösségünket építő embereknek.</p>
             <p class="lang about_text4" key="about_text4">Látjuk azt, hogy hatékonyabban tervezhetünk, dolgozhatunk és terveinkhez több támogatást is tudunk szerezni, ha összefogva erőinket egyrészt megosztjuk a munkát, másrészt felelősöket tudunk állítani egy-egy adott területre.</p>
             <p class="lang about_text5" key="about_text5">Nézzél szét, keresd meg, hogy miként foglalkozunk a gyerekekkel, hogyan alakul a néptánccsoportunk, a cserkészcsapatunk, a focistáink élete, keress rá az iskolai programokra, nézd meg, hogy kik és hogyan támogatnak bennünket, s ha bővebben is érdeklődni szeretnél, megtalálod elérhetőségeinket is. Mi folyamatosan építjük honlapunkat.</p>
             <p class="lang about_text6" key="about_text6">Isten hozott téged is Székelykocsárdnak ezen legújabb várába!</p>
-            <button class="lang btn btn-primary btn-md text-uppercase" data-toggle="modal" href="#read_more" key="about_read_more">Bővebben</button>
+            <button type="button" class="lang btn btn-primary btn-md text-uppercase" data-toggle="modal" data-target="#read_more" key="about_read_more">Bővebben</button>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Activity -->
-    <section id="activity">
+    <section id="activity" class="activity-section" aria-labelledby="activity-heading">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="lang section-heading text-uppercase" key="activity_text1">Tevékenységek</h2>
-            <h3 class="lang section-subheading text-muted" key="activity_text2">MOTTÓNK:  " A HÁZ TÖBB A TERVNÉL, A CSELEKEDET TÖBB A SZÓNÁL!"</h3>
+          <div class="col-12 text-center">
+            <h2 id="activity-heading" class="lang section-heading text-uppercase" key="activity_text1">Tevékenységek</h2>
+            <p class="lang section-subheading text-muted activity-motto mb-0" key="activity_text2">MOTTÓNK: „A ház több a tervnél, a cselekedet több a szónál!”</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
+          <div class="col-12">
+            <ul class="timeline activity-timeline">
               <li>
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/about/start.jpg" alt="">
@@ -140,8 +116,7 @@
                     <h4 class="lang subheading" key="activity_text6">Székelykocsárdi népi vigalom</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="lang text-muted" key="activity_text7">A tér ahol mindenki elfér! A Cserevár Egyesület főszervezője volt a ”Székelykocsárdi népi vigalom” rendezvénynek. A rendezvény helyszíne a székelykocsárdi futballpálya volt. Az esemény a következő programokat biztosította az oda érkezőknek: kézműves- és hagyományőrző foglalkozások, gyerek programok, gasztronómia ínyencségek, néptánc előadások, kulturális programok, kiállítások, sport rendezvények, koncert, szabadtéri bál és nem utolsó sorban tüzijáték!
-                    </p>
+                    <p class="lang text-muted" key="activity_text7">A tér ahol mindenki elfér! A Cserevár Egyesület főszervezője volt a „Székelykocsárdi népi vigalom” rendezvénynek. A rendezvény helyszíne a székelykocsárdi futballpálya volt. Az esemény a következő programokat biztosította az oda érkezőknek: kézműves- és hagyományőrző foglalkozások, gyerek programok, gasztronómia ínyencségek, néptánc előadások, kulturális programok, kiállítások, sport rendezvények, koncert, szabadtéri bál és nem utolsó sorban tüzijáték!</p>
                   </div>
                 </div>
               </li>
@@ -155,7 +130,7 @@
                     <h4 class="lang subheading" key="activity_text9">Nyári tábor</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="lang text-muted" key="activity_text10">Tanulunk angolul és megőrizzük hagyományainkat. Támogatóink a székelykocsárdi polgármester hivatal és a ROMÁNIA KORMÁNYA - ETNIKUMKÖZI KAPCSOLATOK HIVATALA</p>
+                    <p class="lang text-muted" key="activity_text10">Tanulunk angolul és megőrizzük hagyományainkat. Támogatóink a székelykocsárdi polgármesteri hivatal és a Románia Kormánya – Etnikumközi Kapcsolatok Hivatala.</p>
                   </div>
                 </div>
               </li>
@@ -180,12 +155,12 @@
                 <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4 class="lang" key="activity_text14">2016 - június</h4>
-                    <h4 class="class subheading" key="activity_text15">Gyereknapi fociturné</h4>
+                    <h4 class="lang subheading" key="activity_text15">Gyereknapi fociturné</h4>
                   </div>
                   <div class="timeline-body">
-                    <iframe width="300" height="245" src="
-                    https://www.youtube.com/embed/ZMoQV30BFCw">
-                    </iframe>
+                    <div class="activity-embed">
+                      <iframe title="YouTube video" src="https://www.youtube.com/embed/ZMoQV30BFCw" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -257,8 +232,7 @@
                     <h4 class="lang subheading" key="activity_text28">Szórványiskola beindítása, kisbusz vásárlása magyar kormány finanszírozása által!</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="lang text-muted" key="activity_text29">Köszönjük szépen a Miniszterelnökség Nemzetpolitikai Államtitkárságának, hogy lehetővé tette egyesületünk tevékenységének fejlesztését és a székelykocsárdi magyar délutáni oktatás beindítását azáltal, hogy támogatta az egyesület honlapjának a létrehozását, a Gr. Gálffy János Magyar Közösségi Ház konyhafelszerelésének bővítését, egy kisbusz megvásárlásának, karbantartásának költségeit és napi üzemeltetését(a gyerekek ingáztatására), valamint a délutáni oktatásban résztvevő diákoknak az ebédeltetését.
-                    FŐTÁMOGATÓ: Miniszterelnökség Nemzetpolitikai Államtitkársága</p>
+                    <p class="lang text-muted" key="activity_text29">Köszönjük szépen a Miniszterelnökség Nemzetpolitikai Államtitkárságának, hogy lehetővé tette egyesületünk tevékenységének fejlesztését és a székelykocsárdi magyar délutáni oktatás beindítását azáltal, hogy támogatta az egyesület honlapjának a létrehozását, a Gr. Gálffy János Magyar Közösségi Ház konyhafelszerelésének bővítését, egy kisbusz megvásárlásának, karbantartásának költségeit és napi üzemeltetését (a gyerekek ingáztatására), valamint a délutáni oktatásban résztvevő diákoknak az ebédeltetését. Főtámogató: Miniszterelnökség Nemzetpolitikai Államtitkársága.</p>
                   </div>
                 </div>
               </li>
@@ -289,20 +263,19 @@
                     <h4 class="lang subheading" key="activity_text34">Felavatták Fehér megye egyik legkorszerűbb vidéki sportlétesítményét!</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="lang text-muted" key="activity_text35">
-                      Bővebb információkkal a Szabadság oldal szolgál, a cikk olvasására <a href="http://szabadsag.ro/-/felavattak-feher-megye-egyik-legkorszerubb-videki-sportletesitmenyet" target="_blank">ide</a> kattints.
+                    <p class="lang text-muted" key="activity_text35" data-i18n-html="true">
+                      Bővebb információkkal a Szabadság oldal szolgál, a cikk olvasására <a href="https://szabadsag.ro/-/felavattak-feher-megye-egyik-legkorszerubb-videki-sportletesitmenyet" target="_blank" rel="noopener noreferrer">ide</a> kattints.
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>
-                  <span class="lang" key="timeline_last_text1">A jövőnk</span>
-                    <br>
+              <li class="activity-timeline-closing">
+                <div class="timeline-image activity-timeline-closing-badge">
+                  <div class="activity-closing-text">
+                    <span class="lang" key="timeline_last_text1">A jövőnk</span>
                     <span class="lang" key="timeline_last_text2">öntől</span>
-                    <br>
-                    <span class="lang" key="timeline_last_text3">függ!</span></h4>
+                    <span class="lang" key="timeline_last_text3">függ!</span>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -311,8 +284,7 @@
       </div>
     </section>
 
-    <!-- Gallery -->
-    <section class="p-0" id="gallery">
+    <section class="p-0" id="gallery" aria-label="Galéria">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
 
@@ -320,82 +292,82 @@
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep1.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep2.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep3.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep3.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep3.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep4.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep4.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep4.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep5.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep5.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep5.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep7.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep7.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep7.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep8.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep8.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep8.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep9.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep9.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep9.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep10.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep10.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep10.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep11.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep11.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep11.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep12.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep12.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep12.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep13.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep13.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep13.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep14.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep14.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep14.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep15.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep15.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep15.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep16.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep16.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep16.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapatkep17.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapatkep17.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapatkep17.JPG" alt="">
             </a>
           </div>
 
@@ -403,39 +375,39 @@
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/foci1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/foci1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/foci1.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/foci2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/foci2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/foci2.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/foci3.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/foci3.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/foci3.JPG" alt="">
             </a>
           </div>
 
           <!-- Tanc -->
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/tanc1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/tanc1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/tanc1.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/tanc2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/tanc2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/tanc2.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/tanc3.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/tanc3.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/tanc3.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/tanc4.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/tanc4.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/tanc4.JPG" alt="">
             </a>
           </div>
 
@@ -443,17 +415,17 @@
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/mikulas.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/mikulas.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/mikulas.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/mikulas1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/mikulas1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/mikulas1.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/mikulas2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/mikulas2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/mikulas2.JPG" alt="">
             </a>
           </div>
 
@@ -461,133 +433,133 @@
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas1.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas2.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas3.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas3.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas3.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas4.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas4.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas4.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas5.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas5.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas5.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas6.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas6.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas6.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas7.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas7.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas7.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas8.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas8.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas8.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas9.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas9.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas9.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas10.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas10.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas10.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas11.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas11.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas11.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas12.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas12.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas12.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas13.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas13.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas13.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas14.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas14.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas14.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas15.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas15.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas15.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas16.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas16.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas16.JPG" alt="">
             </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas17.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas17.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas17.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas18.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas18.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas18.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas19.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas19.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas19.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas20.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas20.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas20.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas21.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas21.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas21.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas22.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas22.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas22.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas23.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas23.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas23.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas24.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas24.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas24.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas25.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas25.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas25.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/uszas27.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/uszas27.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/uszas27.JPG" alt="">
             </a>
           </div>
 
@@ -595,47 +567,46 @@
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat1.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat1.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat1.JPG" alt="">
             </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat2.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat2.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat2.JPG" alt="">
             </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat3.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat3.jpg" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat3.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat4.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat4.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat4.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat5.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat5.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat5.JPG" alt="">
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/csapat6.JPG">
-              <img class="img-fluid" src="img/portfolio/thumbnails/csapat6.JPG" alt="">
+              <img class="img-fluid" loading="lazy" decoding="async" src="img/portfolio/thumbnails/csapat6.JPG" alt="">
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
+    <section class="bg-light" id="team" aria-labelledby="team-heading">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="lang section-heading text-uppercase" key="team_heading">A mi csodás csapatunk</h2>
-            <h3 class="lang section-subheading text-muted" key="team_subheading">A vár alappillérei:</h3>
+          <div class="col-12 text-center">
+            <h2 id="team-heading" class="lang section-heading text-uppercase" key="team_heading">A mi csodás csapatunk</h2>
+            <p class="lang section-subheading text-muted mb-0" key="team_subheading">A vár alappillérei:</p>
           </div>
         </div>
         <div class="row">
@@ -646,7 +617,7 @@
               <p class="lang text-muted" key="member_profession1">-polgármester-</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/csegezi.zsuzsa" target="_blank">
+                  <a href="https://www.facebook.com/csegezi.zsuzsa" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
@@ -660,7 +631,7 @@
               <p class="lang text-muted" key="member_profession2">-tanárnő-</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/ildiko.szekeres.1694" target="_blank">
+                  <a href="https://www.facebook.com/ildiko.szekeres.1694" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
@@ -674,7 +645,7 @@
               <p class="lang text-muted" key="member_profession3">-közgazdász-</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/kiss.dezso.96" target="_blank">
+                  <a href="https://www.facebook.com/kiss.dezso.96" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
@@ -688,7 +659,7 @@
               <p class="lang text-muted" key="member_profession4">-cserkészvezető lelkipásztorunk-</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/konyatib" target="_blank">
+                  <a href="https://www.facebook.com/konyatib" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
@@ -718,47 +689,72 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5 sponsors">
+    <section id="progress" class="progress-section py-5" aria-labelledby="progress-heading">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="lang section-heading text-uppercase" key="team_heading">Támogatóink</h2>
-            <p class="lang large">Támogatóink között cégek és magánszemélyek egyaránt találhatók. Az eddigi támogatásokat nagyra értékeljük és köszönjük a bizalmat meg a nyitottságot! Bármilyen további támogatónak és támogatásnak pedig nagyon örülnénk. Nélkületek sokkal kevesebbek lennénk!</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 text-center">
+            <p class="progress-section__eyebrow mb-2 lang" key="footer_brand_short">Cserevár</p>
+            <h2 id="progress-heading" class="lang section-heading text-uppercase progress-section__title" key="progress_heading">Hol tartunk most</h2>
+            <p class="lang progress-section__intro text-muted mx-auto" key="progress_intro">Összefoglaljuk, min dolgozunk éppen: a közösség, a honlap és a gyerekek programjai egyaránt fontosak számunkra. Ez a szekció folyamatosan frissül – ha valami újat szeretnél közölni, írj nekünk az elérhetőségeknél.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="http://www.kormany.hu/hu" target="_blank">
-              <img class="img-fluid d-block mx-auto" src="img/logos/bga_logo.jpg" alt="">
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 col-lg-10">
+            <div class="progress-section__card">
+              <ul class="progress-section__list list-unstyled mb-0">
+                <li class="lang progress-section__item" key="progress_item1">Honlapunk 2026-os frissítése: áttekinthetőbb megjelenés, többnyelvű tartalom (magyar, román, angol), támogatók, kapcsolat és tevékenységek szekciói.</li>
+                <li class="lang progress-section__item" key="progress_item2">Gyerekeknek és fiataloknak szóló programok (néptánc, cserkészet, sport, délutáni foglalkozások) szervezésének folytatása.</li>
+                <li class="lang progress-section__item" key="progress_item3">Helyi magyar közösség és iskola ügyeinek támogatása, pályázatok és támogatók bevonása.</li>
+                <li class="lang progress-section__item" key="progress_item4">Online jelenlét bővítése – hogy többen megtalálhassanak bennünket és a közösségi eseményeket.</li>
+                <li class="lang progress-section__item" key="progress_item5">Kapcsolattartás a támogatóinkkal és a szomszéd települések civil szervezeteivel – közös tervezés, jobb együttműködés.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors sponsors-section py-5" aria-labelledby="sponsors-heading">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-10 text-center">
+            <h2 id="sponsors-heading" class="lang section-heading text-uppercase sponsors-section__title" key="sponsors_heading">Támogatóink</h2>
+            <p class="lang mx-auto sponsors-section__intro" key="sponsors_intro">Támogatóink között cégek és magánszemélyek egyaránt találhatók. Az eddigi támogatásokat nagyra értékeljük és köszönjük a bizalmat meg a nyitottságot! Bármilyen további támogatónak és támogatásnak pedig nagyon örülnénk. Nélkületek sokkal kevesebbek lennénk!</p>
+          </div>
+        </div>
+        <div class="row sponsors-section__logos align-items-stretch justify-content-center text-center mt-4 mt-md-5">
+          <div class="col-6 col-md-3">
+            <a class="sponsors-section__logo-card" href="https://www.kormany.hu/hu" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto sponsors-section__logo-img" src="img/logos/bga_logo.jpg" alt="BGA logó">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="http://www.communitas.ro/" target="_blank">
-              <img class="img-fluid d-block mx-auto" src="img/logos/communitas_logo.jpg" alt="">
+          <div class="col-6 col-md-3">
+            <a class="sponsors-section__logo-card" href="https://www.communitas.ro/" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto sponsors-section__logo-img" src="img/logos/communitas_logo.jpg" alt="Communitas Alapítvány logó">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="http://www.emet.gov.hu/" target="_blank">
-              <img class="img-fluid d-block mx-auto" src="img/logos/emet_logo.jpg" alt="">
+          <div class="col-6 col-md-3">
+            <a class="sponsors-section__logo-card" href="https://www.emet.gov.hu/" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto sponsors-section__logo-img" src="img/logos/emet_logo.jpg" alt="EMET logó">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="http://www.dri.gov.ro/" target="_blank">
-              <img class="img-fluid d-block mx-auto" src="img/logos/dri.jpg" alt="">
+          <div class="col-6 col-md-3">
+            <a class="sponsors-section__logo-card" href="https://www.dri.gov.ro/" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto sponsors-section__logo-img" src="img/logos/dri.jpg" alt="DRI logó">
             </a>
           </div>
         </div>
-        <div class="row" style="margin: 10px 0;">
-          <div class="col-lg-12 text-left">
-            <h4 class="lang section-heading text-uppercase" key="team_heading">További támogatóink</h4>
+        <div class="row justify-content-center mt-5">
+          <div class="col-12 col-xl-10">
+            <h3 class="lang sponsors-section__subheading" id="sponsors-more-heading" key="sponsors_more_heading">További támogatóink</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="spnsor-list-container col-lg-12 text-left">
+        <div class="row justify-content-center">
+          <div class="sponsor-list-container col-12 col-xl-10 text-left">
+            <div class="sponsors-section__panel">
             <div class="row">
-              <div class="col-sm-4">
-                <ul class="sponsor-list">
+              <div class="col-md-4">
+                <ul class="sponsor-list sponsors-section__list">
                   <li class="sponsor-list-item">THERMO CONTROL SRL –Sepsiszentgyörgy</li>
                   <li class="sponsor-list-item">Nabla 2002 KFT -Áporka(HU)</li>
                   <li class="sponsor-list-item">REALPAC SRL- Székelykocsárd</li>
@@ -772,8 +768,8 @@
                   <li class="sponsor-list-item">EEE SA – Temesvár</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="sponsor-list">
+              <div class="col-md-4">
+                <ul class="sponsor-list sponsors-section__list">
                   <li class="sponsor-list-item">NEXXON SRL – Kézdivásárhely</li>
                   <li class="sponsor-list-item">OTP BANK – Bukarest (computers)</li>
                   <li class="sponsor-list-item">ELEMATIS TECH SRL – Bukarest</li>
@@ -787,8 +783,8 @@
                   <li class="sponsor-list-item">NRG INSTAL SRL - Kolozsvár</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="sponsor-list">
+              <div class="col-md-4">
+                <ul class="sponsor-list sponsors-section__list">
                   <li class="sponsor-list-item">AUTONOM SRL – Bukarest</li>
                   <li class="sponsor-list-item">ROYAL FARM SRL – Marosújvár (Ocna-Mureș)</li>
                   <li class="sponsor-list-item">TELEKOM – Bukarest</li>
@@ -796,167 +792,182 @@
                   <li class="sponsor-list-item">CONSOLIGHT SRL – Bukarest</li>
                   <li class="sponsor-list-item">ALEDAV DESIGNER SRL -Székelyföldvár</li>
                   <li class="sponsor-list-item">MOARA MIRIŞTEAN SRL – Székelykocsárd</li>
+                  <li class="sponsor-list-item">POWER SUPPLY SYSTEMS UPS SRL</li>
                   <li class="sponsor-list-item">SZÉKELYKOCSÁRDI POLGÁRMESTERI HIVATAL</li>
                 </ul>
               </div>
             </div>
-            <p style="margin: 10px;">KÜLÖN KÖSZÖNET A NAGYLELKŰ MAGÁNSZEMÉLYEKNEK, AKIK HOZZÁJÁRULTAK AZ EDDIGI SIKEREK ELÉRÉSÉHEZ!</p>
+            </div>
+            <p class="lang sponsors-section__thanks mt-4 mb-0" key="sponsors_thanks">Külön köszönet a nagylelkű magánszemélyeknek, akik hozzájárultak az eddigi sikerek eléréséhez!</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center subheading-content">
-            <h2 class="lang section-heading text-uppercase" key="contact_heading">Elérhetőség</h2>
-          </div>
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <div class="contact-section__accent" aria-hidden="true"></div>
+      <div class="contact-section__mesh" aria-hidden="true"></div>
+      <div class="container contact-section__container">
+        <div class="contact-section__intro text-center">
+          <p class="contact-section__eyebrow mb-2 lang" key="footer_brand_short">Cserevár</p>
+          <h2 id="contact-heading" class="lang section-heading text-uppercase mb-0" key="contact_heading">Elérhetőség</h2>
         </div>
-        <div class="row adress">
-          <div class="col-lg-6">
-            <h3 class="lang" key="contact_name">Cserevár Egyesület</h3>
-            <p class="lang" key="contact_adresss">Cim: Szekelykocsard, 319., Fehér megye, irányítószám: 517405</p>
-            <p class="lang" key="contact_code">Adószám: 32739622</p>
-            <p><b>CEC BANK</b></p>
-            <p class="lang" key="contact_iban">Iban: RO56CECEAB10C1EUR0533341  SWIFT: CECEROBU (EURO)</p>
-            <p class="lang" key="contact_iban2">Iban: RO47CECEAB1830RON0486285   SWIFT: CECEROBU (RON)</p>
-            <p><b>ROMÁN KERESKEDELMI BANK</b></p>
-            <p class="lang" key="contact_iban3">Iban: RO98RNCB0005157566870001  SWIFT: RNCBROBU (RON)</p>
-            <p class="lang" key="contact_iban4">Iban: RO71RNCB0005157566870002 SWIFT: RNCBROBU (HUF)</p>
-            <p class="lang" key="contact_email">Email: zudoranna@yahoo.com</p>
-            <p class="lang" key="contact_phone">Telefonszám: 0799828497</p>
-            <div class="row">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750.0873916056903!2d23.903964115315016!3d46.4271473791241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47495f67cdf338b5%3A0xb95a975939a65b3c!2sPrim%C4%83ria+Lunca+Mure%C8%99ului!5e0!3m2!1sro!2sro!4v1544628552500" width="500" height="450" frameborder="0" style="border:0; margin-left: 10px" allowfullscreen></iframe>
+        <div class="row address">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="contact-section__panel contact-section__panel--info">
+              <h3 class="lang contact-section__org-name" key="contact_name">Cserevár Egyesület</h3>
+              <p class="lang contact-section__text mb-2" key="contact_adresss">Cím: Székelykocsárd, 319., Fehér megye, irányítószám: 517405</p>
+              <p class="lang contact-section__text mb-4" key="contact_code">Adószám: 32739622</p>
+
+              <p class="contact-section__bank-label mb-1">CEC Bank</p>
+              <p class="lang contact-section__text contact-section__text--muted small mb-1" key="contact_iban">IBAN: RO56CECEAB10C1EUR0533341 · SWIFT: CECEROBU (EUR)</p>
+              <p class="lang contact-section__text contact-section__text--muted small mb-4" key="contact_iban2">IBAN: RO47CECEAB1830RON0486285 · SWIFT: CECEROBU (RON)</p>
+
+              <p class="contact-section__bank-label mb-1">Román Kereskedelmi Bank</p>
+              <p class="lang contact-section__text contact-section__text--muted small mb-1" key="contact_iban3">IBAN: RO98RNCB0005157566870001 · SWIFT: RNCBROBU (RON)</p>
+              <p class="lang contact-section__text contact-section__text--muted small mb-4" key="contact_iban4">IBAN: RO71RNCB0005157566870002 · SWIFT: RNCBROBU (HUF)</p>
+
+              <p class="lang contact-section__text mb-1" key="contact_email">E-mail: zudoranna@yahoo.com</p>
+              <p class="lang contact-section__text mb-4" key="contact_phone">Telefonszám: 0799828497</p>
+
+              <div class="contact-section__map-wrap contact-map embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" title="Térkép – Lunca Mureșului polgármesteri hivatal" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750.0873916056903!2d23.903964115315016!3d46.4271473791241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47495f67cdf338b5%3A0xb95a975939a65b3c!2sPrim%C4%83ria+Lunca+Mure%C8%99ului!5e0!3m2!1sro!2sro!4v1544628552500" allowfullscreen loading="lazy"></iframe>
+              </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <h3 class="lang section-heading col-md-12 text-uppercase" key="contact_formular">Itt írhatsz nekünk!</h3>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input class="placeholder form-control" id="name" type="text" placeholder="Név *" required="required" data-validation-required-message="Va rugam sa va introduceti numele." key="contact_name_placeholder">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="placeholder form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Va rugam sa va introduceti emailul." key="contact_email_placeholder">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="placeholder form-control" id="phone" type="tel" placeholder="Telefon *" required="required" data-validation-required-message="Please enter your phone number." key="contact_phone_placeholder">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="placeholder form-control" id="message" placeholder="Üzenet *" required="required" data-validation-required-message="Va rugam sa introduceti un mesaj." key="contact_message_placeholder"></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center send-message">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="lang btn btn-primary btn-xl text-uppercase" type="submit" key="contact_button">Üzenet Küldése</button>
-                </div>
-                </div>
+            <div class="contact-section__panel contact-section__panel--form h-100">
+            <form id="contactForm" name="sentMessage" novalidate>
+              <h3 class="lang contact-section__form-title" key="contact_formular">Itt írhatsz nekünk!</h3>
+              <div class="form-group">
+                <label class="sr-only" for="name">Név</label>
+                <input class="placeholder form-control" id="name" name="name" type="text" placeholder="Név *" required data-validation-required-message="Kérjük, adja meg a nevét." key="contact_name_placeholder" autocomplete="name">
+                <p class="help-block text-danger mb-0"></p>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email">E-mail</label>
+                <input class="placeholder form-control" id="email" name="email" type="email" placeholder="E-mail *" required data-validation-required-message="Kérjük, adja meg az e-mail címét." key="contact_email_placeholder" autocomplete="email">
+                <p class="help-block text-danger mb-0"></p>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="phone">Telefon</label>
+                <input class="placeholder form-control" id="phone" name="phone" type="tel" placeholder="Telefon *" required data-validation-required-message="Kérjük, adja meg a telefonszámát." key="contact_phone_placeholder" autocomplete="tel">
+                <p class="help-block text-danger mb-0"></p>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="message">Üzenet</label>
+                <textarea class="placeholder form-control" id="message" name="message" placeholder="Üzenet *" required data-validation-required-message="Kérjük, írjon üzenetet." key="contact_message_placeholder" rows="6"></textarea>
+                <p class="help-block text-danger mb-0"></p>
+              </div>
+              <div class="text-center send-message pt-1">
+                <div id="success"></div>
+                <button id="sendMessageButton" class="lang btn btn-primary btn-xl text-uppercase contact-section__submit" type="submit" key="contact_button">Üzenet küldése</button>
+              </div>
             </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Demeny Norbert 2018</span>
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__accent" aria-hidden="true"></div>
+    <div class="site-footer__mesh" aria-hidden="true"></div>
+    <div class="container site-footer__container">
+      <div class="site-footer__panel">
+        <div class="site-footer__head text-center text-md-left">
+          <p class="site-footer__eyebrow mb-1 lang" key="footer_brand_short">Cserevár</p>
+          <p class="site-footer__title lang mb-0" key="title">Cserevár Egyesület</p>
+        </div>
+        <div class="site-footer__grid">
+          <div class="site-footer__col site-footer__col--copy">
+            <p class="site-footer__label mb-2 lang" key="footer_label_rights">Szerzői jog</p>
+            <p class="site-footer__copyright mb-0">
+              <span class="site-footer__copy-line">© 2018–2026 <strong class="site-footer__name">Demény Norbert</strong></span>
+            </p>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/norbert.demeny.1" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item" target="_blank">
-                <a href="https://www.linkedin.com/in/norbert-demeny-ba3961b6/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
+          <div class="site-footer__col site-footer__col--social">
+            <p class="site-footer__label mb-2 text-center lang" key="footer_label_social">Közösségi média</p>
+            <nav class="site-footer__social-nav d-flex justify-content-center" aria-label="Közösségi profilok">
+              <ul class="list-inline social-buttons site-footer__social mb-0">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/norbert.demeny.1" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/norbert-demeny-ba3961b6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="https://www.freeprivacypolicy.com/privacy/view/c8906f82c12a5f966a48715ff4f74100" target="_blank">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.freeprivacypolicy.com/privacy/view/c8906f82c12a5f966a48715ff4f74100" target="_blank">Terms of Use</a>
-              </li>
-            </ul>
+          <div class="site-footer__col site-footer__col--legal">
+            <p class="site-footer__label mb-2 text-center text-md-right lang" key="footer_label_legal">Jogi információk</p>
+            <nav aria-label="Jogi információk">
+              <ul class="list-inline quicklinks site-footer__legal mb-0">
+                <li class="list-inline-item">
+                  <a class="site-footer__pill lang" href="https://www.freeprivacypolicy.com/privacy/view/c8906f82c12a5f966a48715ff4f74100" target="_blank" rel="noopener noreferrer" key="footer_link_privacy">Adatvédelem</a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="site-footer__pill lang" href="https://www.freeprivacypolicy.com/privacy/view/c8906f82c12a5f966a48715ff4f74100" target="_blank" rel="noopener noreferrer" key="footer_link_terms">Felhasználási feltételek</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="read_more" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
+  <div class="portfolio-modal modal fade" id="read_more" tabindex="-1" role="dialog" aria-labelledby="read-more-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content modal-content--elevated">
+        <button type="button" class="close-modal modal-close-btn" data-dismiss="modal" aria-label="Bezárás">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <div class="modal-body">
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="lang text-uppercase" key="about_modal_title">Székelykocsárd</h2>
-                  <p class="item-intro text-muted text-uppercase">Múlt - Jelen - Jövő</p>
+              <div class="col-lg-10 mx-auto">
+                  <h2 id="read-more-title" class="lang text-uppercase" key="about_modal_title">Székelykocsárd</h2>
+                  <p class="lang item-intro text-muted text-uppercase" key="about_modal_intro">Múlt - Jelen - Jövő</p>
                   <h3 class="lang" key="about_modal_text1">Székelykocsárd múltjáról</h3>
                   <p class="lang" key="about_modal_text2">Székelykocsárd egy ősi székely település, melynek helyén Orbán Balázs szerint az egykori római kolónia, COCARDIA állhatott. Az ide települő székely ősök viszont Aranyosszékhez tartozva kissé távol estek a mai Székelyföld határaitól, s bár az aranyosszéki székelyek évszázadokon át megőrizték kultúrájukat, nemzeti öntudatukat, a trianoni döntés utáni időkben kisebbségbe kerültek saját falujukban. Évszázadokkal ezelőtt országgyűléseknek is helyet adtunk, az erdélyi fejedelem magas rangú tanácsosainak is otthona volt Székelykocsárd, itt voltak fontos csatáik Báthori Istvánnak, Esze Tamásnak, a negyvennyolcas nemzetőröknek, az első világháború is átment rajtunk, s még mindig megvannak a második világháború alatt ásott magyar-német lövészárkok is. Megvan az 1848-ban legyilkolt kb. 60 kocsárdi magyar lakos egyikének vérével átitatott anyakönyvünk, a sok szép magyar határnév, dűlőnév mint Három-tó és Tó-farka, Végláb, Túrós, Zúgó, Szőlők-alja, Berek, Meleg-oldal, stb. s tudjuk az egykoron településünk határában létező erődítménynek a nevét is: CSEREVÁR.</p>
                   <h3 class="lang" key="about_modal_text3">A jelen</h3>
                   <p class="lang" key="about_modal_text4">Ma már elmondhatjuk, hogy a falu lakosságának kevesebb mint 30%-át teszik ki a magyarok, hiszen mellettünk él kb. 50%-nyi román és 20%-nyi roma lakos is - akik döntő többségben a románul beszélők sorait szaporítják. Létszámunk csökkenésének okait magunkban is kereshetjük, hiszen a családonkénti 2 gyerek nem elég, 4-5 gyerek kellene s talán ez megoldaná a helyzetet, de mint mindenhol, úgy itt is a korszellemből kórszellem lett, s a gyereklétszám egyelőre nem növekszik. A eltelt évtizedek alatt sokan el is költöztek Székelykocsárdról. Mivel évszázadok óta, vagy talán mindig is többségében szabad emberek és kisnemesek lakták e települést, a művelődés és a tanulás érdekében kiemelkedően sok fiatalt engedtek, küldtek iskolákba, s a tanult fiataloknak csak kis százaléka kerülhetett vissza Székelykocsárdra. Ez csökkentette létszámunkat, de ugyanakkor erősítette is településünk azon rétegét, akik tudatosan, elköteleződésből vállalták a közösségért való munkálkodást.
                   </p>
                   <h3 class="lang" key="about_modal_text5">Az iskola</h3>
-                  <p class="lang" key="about_text6">Most a székelykocsárdi magyarok sorsa válaszút előtt áll: az iskolában az I.-IV. osztályos elemi 2 tanerővel működik, az V.-VIII. osztályos iskola diákjai sajnos egy osztályba vannak összevonva. De a gyereklétszám csökkenőben van, ha semmit sem teszünk, előbb-utóbb meg fogják szüntetni az V.-VIII. osztályos gimnázium magyar tagozatát, mint a környékbeli falvakban is történt. Ha ez bekövetkezik, akkor a magyar szülők előtt két lehetőség marad: vagy beiratják gyerekeiket a helyi román iskolába, vagy internátusba adják, esetleg ingáztatni fogják őket, Nagyenyedre. Ha mindannyian e második megoldást választanák, nem is lenne olyan nagy tragédia. De tudjuk, hogy ez nem így lesz!</p>
+                  <p class="lang" key="about_modal_text6">Most a székelykocsárdi magyarok sorsa válaszút előtt áll: az iskolában az I.-IV. osztályos elemi 2 tanerővel működik, az V.-VIII. osztályos iskola diákjai sajnos egy osztályba vannak összevonva. De a gyereklétszám csökkenőben van, ha semmit sem teszünk, előbb-utóbb meg fogják szüntetni az V.-VIII. osztályos gimnázium magyar tagozatát, mint a környékbeli falvakban is történt. Ha ez bekövetkezik, akkor a magyar szülők előtt két lehetőség marad: vagy beiratják gyerekeiket a helyi román iskolába, vagy internátusba adják, esetleg ingáztatni fogják őket, Nagyenyedre. Ha mindannyian e második megoldást választanák, nem is lenne olyan nagy tragédia. De tudjuk, hogy ez nem így lesz!</p>
                   <h3 class="lang" key="about_modal_text7">A jövő</h3>
                   <h5 class="lang" key="about_modal_text8">A rossz változat</h5>
-                  <p class="lang" key="about_text9">Tudjuk azt, a környékbeli példákból, hogy a magyar tagozat megszűnése esetén a következő forgatókönyv fog érvényesülni: a szülők egy része (kb. fele) román iskolába fogja iratni a gyerekét. Abból általában vegyes-házasság lesz, s az ilyen házasságból született gyerekek 99%-ban magyarul már nem beszélnek. S akkor nekünk már mindegy, hogy hány gyerek születik... S ezeket a gyerekeket nem látja viszont a most még jól működő, s többieket befogadó, nagyenyedi Bethlen Gábor Kollégium sem. A szülők másik része magyar iskolába iratja majd a gyerekét, nagyrészt Enyedre, de sokan az iskola miatt el is fognak költözni a faluból. S ha elmennek a fiatalok, akkor lassan eladódnak a földek, a házak, s a hátramaradottaknak nem lesz más dolguk, mint becsukni az ajtót. A magyar házak ajtaját, a magyar iskola és óvoda ajtaját, aztán a templom ajtaját, s végül a temetőkapu is be fog rozsdázni. Olyan ez, mint amikor egy szekér elindul lefelé a hegyoldalon. S mind gyorsabban, mind megállíthatatlanabbul száguld lefelé, a szakadék felé.
+                  <p class="lang" key="about_modal_text9">Tudjuk azt, a környékbeli példákból, hogy a magyar tagozat megszűnése esetén a következő forgatókönyv fog érvényesülni: a szülők egy része (kb. fele) román iskolába fogja iratni a gyerekét. Abból általában vegyes-házasság lesz, s az ilyen házasságból született gyerekek 99%-ban magyarul már nem beszélnek. S akkor nekünk már mindegy, hogy hány gyerek születik... S ezeket a gyerekeket nem látja viszont a most még jól működő, s többieket befogadó, nagyenyedi Bethlen Gábor Kollégium sem. A szülők másik része magyar iskolába iratja majd a gyerekét, nagyrészt Enyedre, de sokan az iskola miatt el is fognak költözni a faluból. S ha elmennek a fiatalok, akkor lassan eladódnak a földek, a házak, s a hátramaradottaknak nem lesz más dolguk, mint becsukni az ajtót. A magyar házak ajtaját, a magyar iskola és óvoda ajtaját, aztán a templom ajtaját, s végül a temetőkapu is be fog rozsdázni. Olyan ez, mint amikor egy szekér elindul lefelé a hegyoldalon. S mind gyorsabban, mind megállíthatatlanabbul száguld lefelé, a szakadék felé.
                   </p>
                   <h5 class="lang" key="about_modal_text10">A jobbik változat</h5>
-                  <p class="lang" key="about_text11">Most még elfordítható, megváltoztatható az irány! Az összevont osztályokban kb. 42 gyerek van, működik néptánccsoportunk, cserkészcsapatunk, van a faluban egyházi kórus, vannak vállalkozók, s van vállalkozó kedv is. Van egy közbirtokosságunk, mely 195 hektáron gazdálkodik, vannak egyházi épületeink, van elképzelésünk és emberünk a dolgok jobbra fordítása érdekében. Ha összefogunk a szomszéd települések közösségeivel, az ottani gyerekeknek is lehetősége nyílik a magyar oktatásra. S ha nagyon iparkodunk, többet nyújthatunk a mi gyerekeinknek is ezen összefogás által. Lehet tehát gondolkodni, reménykedni a székelykocsárdi magyar iskola jövőjében, de ezért TENNI is kell valamit. Ha Ön is segít, biztosan többet tehetünk!
+                  <p class="lang" key="about_modal_text11">Most még elfordítható, megváltoztatható az irány! Az összevont osztályokban kb. 42 gyerek van, működik néptánccsoportunk, cserkészcsapatunk, van a faluban egyházi kórus, vannak vállalkozók, s van vállalkozó kedv is. Van egy közbirtokosságunk, mely 195 hektáron gazdálkodik, vannak egyházi épületeink, van elképzelésünk és emberünk a dolgok jobbra fordítása érdekében. Ha összefogunk a szomszéd települések közösségeivel, az ottani gyerekeknek is lehetősége nyílik a magyar oktatásra. S ha nagyon iparkodunk, többet nyújthatunk a mi gyerekeinknek is ezen összefogás által. Lehet tehát gondolkodni, reménykedni a székelykocsárdi magyar iskola jövőjében, de ezért TENNI is kell valamit. Ha Ön is segít, biztosan többet tehetünk!
                   </p>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Vissza</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="modal-footer modal-footer--read-more border-0">
+          <button type="button" class="btn btn-primary btn-modal-dismiss" data-dismiss="modal">
+            <i class="fas fa-arrow-left" aria-hidden="true"></i> <span class="lang" key="about_modal_back">Vissza</span>
+          </button>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
-  </body>
-
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/agency.min.js"></script>
+</body>
 </html>
